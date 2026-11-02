@@ -1,0 +1,845 @@
+[
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "product_root_folder_id"
+    },
+    "row": {
+      "key": "product_root_folder_id",
+      "value": "1Q8QTpHl_4bhL6A8W3cnF4RdyqR0IhO3u"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "product_name"
+    },
+    "row": {
+      "key": "product_name",
+      "value": "Gapwise"
+    }
+  },
+  {
+    "tab": "Documents",
+    "op": "append",
+    "key": {
+      "id": "D1"
+    },
+    "row": {
+      "id": "D1",
+      "name": "Product folder",
+      "kind": "Other",
+      "url": "https://drive.google.com/drive/folders/1Q8QTpHl_4bhL6A8W3cnF4RdyqR0IhO3u",
+      "owner_email": "dara@gapwise.example",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved",
+      "notes": "Folder: Gapwise"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-10T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Documents",
+    "op": "append",
+    "key": {
+      "id": "D2"
+    },
+    "row": {
+      "id": "D2",
+      "name": "Ikigai",
+      "kind": "Google Doc",
+      "url": "https://docs.google.com/document/d/1VNUu5bGBuqq8PYEGOMjmJvVquMDmvPmEnW1_ekPYlJo/edit",
+      "owner_email": "dara@gapwise.example",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "ikigai_url"
+    },
+    "row": {
+      "key": "ikigai_url",
+      "value": "https://docs.google.com/document/d/1VNUu5bGBuqq8PYEGOMjmJvVquMDmvPmEnW1_ekPYlJo/edit"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-10T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Documents",
+    "op": "append",
+    "key": {
+      "id": "D3"
+    },
+    "row": {
+      "id": "D3",
+      "name": "Business case",
+      "kind": "Google Doc",
+      "url": "https://docs.google.com/document/d/1_8bOdLb--HPqsb11PE1JzIImjPy1mmkwQtMuU3rFAwQ/edit",
+      "owner_email": "dara@gapwise.example",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "business_case_url"
+    },
+    "row": {
+      "key": "business_case_url",
+      "value": "https://docs.google.com/document/d/1_8bOdLb--HPqsb11PE1JzIImjPy1mmkwQtMuU3rFAwQ/edit"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-10T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Documents",
+    "op": "append",
+    "key": {
+      "id": "D4"
+    },
+    "row": {
+      "id": "D4",
+      "name": "Mission and values",
+      "kind": "Google Doc",
+      "url": "https://docs.google.com/document/d/1ulSRQNT16hGU38zpDdT7XZ2Q9cTUQlTEUAEuipB220M/edit",
+      "owner_email": "dara@gapwise.example",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "mission_values_url"
+    },
+    "row": {
+      "key": "mission_values_url",
+      "value": "https://docs.google.com/document/d/1ulSRQNT16hGU38zpDdT7XZ2Q9cTUQlTEUAEuipB220M/edit"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-10T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Documents",
+    "op": "append",
+    "key": {
+      "id": "D5"
+    },
+    "row": {
+      "id": "D5",
+      "name": "Experiment database",
+      "kind": "Google Sheet",
+      "url": "https://docs.google.com/spreadsheets/d/1c59vOvgzMrZy7Kz6c6H5eVP5tHXDlPfpGjt5WFnaN7I/edit",
+      "owner_email": "dara@gapwise.example",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "experiment_database_url"
+    },
+    "row": {
+      "key": "experiment_database_url",
+      "value": "https://docs.google.com/spreadsheets/d/1c59vOvgzMrZy7Kz6c6H5eVP5tHXDlPfpGjt5WFnaN7I/edit"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-10T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Documents",
+    "op": "append",
+    "key": {
+      "id": "D6"
+    },
+    "row": {
+      "id": "D6",
+      "name": "Transcripts folder",
+      "kind": "Other",
+      "url": "https://drive.google.com/drive/folders/1vjj_K7ngwuhiBm2BGuD7lBMrmsl5WdMR",
+      "owner_email": "dara@gapwise.example",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "transcripts_folder_url"
+    },
+    "row": {
+      "key": "transcripts_folder_url",
+      "value": "https://drive.google.com/drive/folders/1vjj_K7ngwuhiBm2BGuD7lBMrmsl5WdMR"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-10T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Documents",
+    "op": "append",
+    "key": {
+      "id": "D7"
+    },
+    "row": {
+      "id": "D7",
+      "name": "Financial Model",
+      "kind": "Google Sheet",
+      "url": "https://docs.google.com/spreadsheets/d/1CbvcC6mmtjLrkkUetKeXuyg7ZhPyedW__Y5C_0ugnVo/edit",
+      "owner_email": "dara@gapwise.example",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved",
+      "notes": "seeded, not confirmed"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "financial_model_url"
+    },
+    "row": {
+      "key": "financial_model_url",
+      "value": "https://docs.google.com/spreadsheets/d/1CbvcC6mmtjLrkkUetKeXuyg7ZhPyedW__Y5C_0ugnVo/edit"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-10T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-10T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Instruments",
+    "op": "append",
+    "key": {
+      "id": "T1"
+    },
+    "row": {
+      "id": "T1",
+      "round": 1,
+      "name": "Sheets connection",
+      "kind": "Other",
+      "purpose": "The founder's Sheets connection the round runs on.",
+      "read_ok": "yes",
+      "write_ok": "yes",
+      "last_instruction": "[WEP-Build-v1] tested read yes, write yes: Read and wrote the Gapwise Experiment database through the Sheets connector on 2026-11-02.",
+      "last_timestamp": "2026-11-10T10:00:00Z",
+      "status": "Live"
+    }
+  },
+  {
+    "tab": "Instruments",
+    "op": "append",
+    "key": {
+      "id": "T2"
+    },
+    "row": {
+      "id": "T2",
+      "round": 1,
+      "name": "Calendar connection",
+      "kind": "Other",
+      "purpose": "The founder's Calendar connection the round runs on.",
+      "read_ok": "yes",
+      "write_ok": "yes",
+      "last_instruction": "[WEP-Build-v1] tested read yes, write yes: Created four events and read one back on 2026-11-02.",
+      "last_timestamp": "2026-11-10T10:00:00Z",
+      "status": "Live"
+    }
+  },
+  {
+    "tab": "Instruments",
+    "op": "append",
+    "key": {
+      "id": "T3"
+    },
+    "row": {
+      "id": "T3",
+      "round": 1,
+      "name": "Gmail connection",
+      "kind": "Other",
+      "purpose": "The founder's Gmail connection the round runs on.",
+      "read_ok": "untested",
+      "write_ok": "untested",
+      "last_instruction": "[WEP-Build-v1] tested read untested, write untested: Not used in this run.",
+      "last_timestamp": "2026-11-10T10:00:00Z",
+      "status": "Planned"
+    }
+  },
+  {
+    "tab": "Instruments",
+    "op": "append",
+    "key": {
+      "id": "T4"
+    },
+    "row": {
+      "id": "T4",
+      "round": 1,
+      "name": "GitHub connection",
+      "kind": "Other",
+      "purpose": "The founder's GitHub connection the round runs on.",
+      "read_ok": "yes",
+      "write_ok": "yes",
+      "last_instruction": "[WEP-Build-v1] tested read yes, write yes: Created the public repo, pushed the page, turned on Pages and copied the board on 2026-11-02.",
+      "last_timestamp": "2026-11-10T10:00:00Z",
+      "status": "Live"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "tools_chosen"
+    },
+    "row": {
+      "key": "tools_chosen",
+      "value": "Sheets, Calendar, Gmail, GitHub"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-10T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Documents",
+    "op": "append",
+    "key": {
+      "id": "D8"
+    },
+    "row": {
+      "id": "D8",
+      "name": "GitHub repo",
+      "kind": "GitHub issues",
+      "url": "https://github.com/wayaframes/gapwise-demo",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved",
+      "notes": ""
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "github_repo_url"
+    },
+    "row": {
+      "key": "github_repo_url",
+      "value": "https://github.com/wayaframes/gapwise-demo"
+    }
+  },
+  {
+    "tab": "Documents",
+    "op": "append",
+    "key": {
+      "id": "D9"
+    },
+    "row": {
+      "id": "D9",
+      "name": "Product board",
+      "kind": "GitHub issues",
+      "url": "https://github.com/orgs/wayaframes/projects/8",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved",
+      "notes": ""
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "product_board_url"
+    },
+    "row": {
+      "key": "product_board_url",
+      "value": "https://github.com/orgs/wayaframes/projects/8"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-10T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "landing_page_platform"
+    },
+    "row": {
+      "key": "landing_page_platform",
+      "value": "GitHub Pages"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "landing_page_path"
+    },
+    "row": {
+      "key": "landing_page_path",
+      "value": "github-pages"
+    }
+  },
+  {
+    "tab": "Instruments",
+    "op": "append",
+    "key": {
+      "id": "T5"
+    },
+    "row": {
+      "id": "T5",
+      "round": 1,
+      "name": "Gapwise landing page",
+      "kind": "Landing page",
+      "purpose": "The page that turns visitors into sign-ups for the round.",
+      "url": "https://wayaframes.github.io/gapwise-demo/",
+      "read_ok": "untested",
+      "write_ok": "untested",
+      "last_instruction": "[WEP-Build-v1] path github-pages on GitHub Pages",
+      "last_timestamp": "2026-11-10T10:00:00Z",
+      "status": "Planned"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-10T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Instruments",
+    "op": "update",
+    "key": {
+      "id": "T5"
+    },
+    "row": {
+      "id": "T5",
+      "round": 1,
+      "experiment_id": "E1-1",
+      "name": "Gapwise landing page",
+      "kind": "Landing page",
+      "purpose": "The page that turns visitors into sign-ups for the round.",
+      "url": "https://wayaframes.github.io/gapwise-demo/",
+      "read_ok": "yes",
+      "write_ok": "yes",
+      "status": "Live",
+      "notes": "Platform: GitHub Pages. File: demo/gapwise/site/index.html. UTM plan: demo/gapwise/site/UTM-PLAN.md."
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "landing_page_url"
+    },
+    "row": {
+      "key": "landing_page_url",
+      "value": "https://wayaframes.github.io/gapwise-demo/"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "landing_page_path"
+    },
+    "row": {
+      "key": "landing_page_path",
+      "value": "demo/gapwise/site/index.html"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-10T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Instruments",
+    "op": "append",
+    "key": {
+      "id": "T6"
+    },
+    "row": {
+      "id": "T6",
+      "round": 1,
+      "name": "Calendar",
+      "kind": "Calendar",
+      "purpose": "Customers book calls here (Google Calendar (oren@wayaframes.com)).",
+      "read_ok": "yes",
+      "write_ok": "yes",
+      "last_instruction": "[WEP-Build-v1] tested read yes, write yes",
+      "last_timestamp": "2026-11-10T10:00:00Z",
+      "status": "Live"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-10T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "crm_path"
+    },
+    "row": {
+      "key": "crm_path",
+      "value": "waya-crm"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "crm"
+    },
+    "row": {
+      "key": "crm",
+      "value": "Waya CRM"
+    }
+  },
+  {
+    "tab": "Documents",
+    "op": "append",
+    "key": {
+      "id": "D10"
+    },
+    "row": {
+      "id": "D10",
+      "name": "Waya CRM",
+      "kind": "Google Sheet",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Not written",
+      "notes": "Lightweight Google Sheet CRM for the first one or two rounds"
+    }
+  },
+  {
+    "tab": "Instruments",
+    "op": "append",
+    "key": {
+      "id": "T7"
+    },
+    "row": {
+      "id": "T7",
+      "round": 1,
+      "name": "CRM",
+      "kind": "CRM",
+      "purpose": "Where customers and their next steps live (the Waya CRM sheet).",
+      "read_ok": "untested",
+      "write_ok": "untested",
+      "last_instruction": "[WEP-Build-v1] Waya CRM chosen",
+      "last_timestamp": "2026-11-10T10:00:00Z",
+      "status": "Planned"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-10T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Instruments",
+    "op": "append",
+    "key": {
+      "id": "T8"
+    },
+    "row": {
+      "id": "T8",
+      "round": 1,
+      "experiment_id": "E1-1",
+      "name": "Cold email sequence",
+      "kind": "Cold email",
+      "purpose": "Emails to office managers",
+      "read_ok": "untested",
+      "write_ok": "untested",
+      "status": "Built"
+    }
+  },
+  {
+    "tab": "Instruments",
+    "op": "append",
+    "key": {
+      "id": "T9"
+    },
+    "row": {
+      "id": "T9",
+      "round": 1,
+      "experiment_id": "E1-1",
+      "name": "LinkedIn messages",
+      "kind": "Other",
+      "purpose": "LinkedIn messages to office managers",
+      "read_ok": "untested",
+      "write_ok": "untested",
+      "status": "Built"
+    }
+  },
+  {
+    "tab": "Instruments",
+    "op": "append",
+    "key": {
+      "id": "T10"
+    },
+    "row": {
+      "id": "T10",
+      "round": 1,
+      "experiment_id": "E1-1",
+      "name": "Interviews",
+      "kind": "Calendar",
+      "purpose": "Calls booked and held",
+      "read_ok": "untested",
+      "write_ok": "untested",
+      "status": "Built"
+    }
+  },
+  {
+    "tab": "Instruments",
+    "op": "append",
+    "key": {
+      "id": "T11"
+    },
+    "row": {
+      "id": "T11",
+      "round": 1,
+      "experiment_id": "E1-1",
+      "name": "Payment link",
+      "kind": "Other",
+      "purpose": "First month paid",
+      "read_ok": "untested",
+      "write_ok": "not needed",
+      "status": "Built"
+    }
+  },
+  {
+    "tab": "Instruments",
+    "op": "append",
+    "key": {
+      "id": "T12"
+    },
+    "row": {
+      "id": "T12",
+      "round": 1,
+      "experiment_id": "E1-2",
+      "name": "Pilot log (hand-run texting)",
+      "kind": "Other",
+      "purpose": "Slots offered and filled, lists, opt-outs",
+      "read_ok": "untested",
+      "write_ok": "untested",
+      "status": "Built"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-10T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Documents",
+    "op": "append",
+    "key": {
+      "id": "D11"
+    },
+    "row": {
+      "id": "D11",
+      "name": "Interview questions",
+      "kind": "Google Doc",
+      "url": "https://docs.google.com/document/d/1MP1OVRNDE6dOxIbVcDK3aIgFGpI3TS0_z2vH4uj5Jp0/edit",
+      "owner_email": "dara@gapwise.example",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "interview_questions_url"
+    },
+    "row": {
+      "key": "interview_questions_url",
+      "value": "https://docs.google.com/document/d/1MP1OVRNDE6dOxIbVcDK3aIgFGpI3TS0_z2vH4uj5Jp0/edit"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-10T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Experiments",
+    "op": "update",
+    "key": {
+      "id": "E1-1"
+    },
+    "row": {
+      "status": "Build"
+    }
+  },
+  {
+    "tab": "Experiments",
+    "op": "update",
+    "key": {
+      "id": "E1-2"
+    },
+    "row": {
+      "status": "Build"
+    }
+  },
+  {
+    "tab": "Sessions",
+    "op": "append",
+    "key": {
+      "session_ref": "Build round 1 2026-11-10"
+    },
+    "row": {
+      "session_ref": "Build round 1 2026-11-10",
+      "method": "Build",
+      "status": "Paused",
+      "current_step": "Build set-up in progress",
+      "started": "2026-11-10T10:00:00Z",
+      "last_activity": "2026-11-10T10:00:00Z",
+      "summary": "Build is not complete: 13 of 15 set-up items are done. Missing: Gmail connected and tested; Marketing board.",
+      "rows_written": "D1-D11,T1-T12"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-10T10:00:00Z"
+    }
+  }
+]

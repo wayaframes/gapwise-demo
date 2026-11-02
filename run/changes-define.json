@@ -1,0 +1,546 @@
+[
+  {
+    "tab": "Assumptions",
+    "op": "append",
+    "key": {
+      "id": "A1"
+    },
+    "row": {
+      "id": "A1",
+      "statement": "Office managers at independent dental practices lose at least 3 appointment slots a week to last-minute cancellations.",
+      "origin": "Business case",
+      "type": "Desirability",
+      "impact": 5,
+      "evidence": 4,
+      "blocks": "no",
+      "risk_index": 10,
+      "effort": 6,
+      "evidence_source": "Dara's six years at one practice (about 5 lost slots a week). One practice only.",
+      "timing": "later",
+      "round": "",
+      "experiment_ids": ""
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "append",
+    "key": {
+      "id": "A2"
+    },
+    "row": {
+      "id": "A2",
+      "statement": "Independent dental practices will pay $149 a month to have cancelled slots filled for them.",
+      "origin": "Business case",
+      "type": "Viability",
+      "impact": 5,
+      "evidence": 1,
+      "blocks": "no",
+      "risk_index": 25,
+      "effort": 22,
+      "evidence_source": "None. Nobody has been asked to pay yet.",
+      "timing": "later",
+      "round": "",
+      "experiment_ids": ""
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "append",
+    "key": {
+      "id": "A3"
+    },
+    "row": {
+      "id": "A3",
+      "statement": "A practice can give us its daily cancellation list (by file or by copy) without any custom software work.",
+      "origin": "Business case",
+      "type": "Feasibility",
+      "impact": 5,
+      "evidence": 2,
+      "blocks": "yes",
+      "risk_index": 30,
+      "effort": 18,
+      "evidence_source": "Dara's old practice software had an export, but practices use many different programs and none has been checked.",
+      "timing": "later",
+      "round": "",
+      "experiment_ids": ""
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "append",
+    "key": {
+      "id": "A4"
+    },
+    "row": {
+      "id": "A4",
+      "statement": "Waiting patients accept offer texts: no more than 3 in 100 opt out.",
+      "origin": "Business case",
+      "type": "Desirability",
+      "impact": 4,
+      "evidence": 2,
+      "blocks": "no",
+      "risk_index": 16,
+      "effort": 10,
+      "evidence_source": "Patients at Dara's old practice agreed to reminder texts. Nobody has been asked about offer texts.",
+      "timing": "later",
+      "round": "",
+      "experiment_ids": ""
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "append",
+    "key": {
+      "id": "A5"
+    },
+    "row": {
+      "id": "A5",
+      "statement": "Waiting patients take a day-of offer fast enough that at least 1 in 3 cancelled slots is filled within 2 hours.",
+      "origin": "Business case",
+      "type": "Desirability",
+      "impact": 4,
+      "evidence": 1,
+      "blocks": "no",
+      "risk_index": 20,
+      "effort": 14,
+      "evidence_source": "None. Dara's guess from the waiting list at her old practice.",
+      "timing": "later",
+      "round": "",
+      "experiment_ids": ""
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "append",
+    "key": {
+      "id": "A6"
+    },
+    "row": {
+      "id": "A6",
+      "statement": "We can reach office managers by cold email and LinkedIn for $60 or less per booked call.",
+      "origin": "Business case",
+      "type": "Viability",
+      "impact": 4,
+      "evidence": 2,
+      "blocks": "no",
+      "risk_index": 16,
+      "effort": 12,
+      "evidence_source": "Two replies to a LinkedIn post. Nothing measured.",
+      "timing": "later",
+      "round": "",
+      "experiment_ids": ""
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "append",
+    "key": {
+      "id": "A7"
+    },
+    "row": {
+      "id": "A7",
+      "statement": "We can set up a new practice in under 2 hours.",
+      "origin": "Business case",
+      "type": "Feasibility",
+      "impact": 3,
+      "evidence": 3,
+      "blocks": "no",
+      "risk_index": 9,
+      "effort": 10,
+      "evidence_source": "Dara did the setup once at her old practice in about 3 hours.",
+      "timing": "later",
+      "round": "",
+      "experiment_ids": ""
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "append",
+    "key": {
+      "id": "A8"
+    },
+    "row": {
+      "id": "A8",
+      "statement": "At least 8 in 10 practices that start are still paying in month 3.",
+      "origin": "Business case",
+      "type": "Viability",
+      "impact": 3,
+      "evidence": 1,
+      "blocks": "no",
+      "risk_index": 15,
+      "effort": 60,
+      "evidence_source": "None. Needs three months of paying practices.",
+      "timing": "later",
+      "round": "",
+      "experiment_ids": ""
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "append",
+    "key": {
+      "id": "A9"
+    },
+    "row": {
+      "id": "A9",
+      "statement": "Front-desk staff see the service as relief, not a threat to their jobs.",
+      "origin": "Mission and values",
+      "type": "Desirability",
+      "impact": 2,
+      "evidence": 3,
+      "blocks": "no",
+      "risk_index": 6,
+      "effort": 8,
+      "evidence_source": "Three former colleagues said they would like it. Friendly, not tested.",
+      "timing": "later",
+      "round": "",
+      "experiment_ids": ""
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-09T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A3"
+    },
+    "row": {
+      "timing": "now",
+      "round": 1
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A2"
+    },
+    "row": {
+      "timing": "now",
+      "round": 1
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A5"
+    },
+    "row": {
+      "timing": "now",
+      "round": 1
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A4"
+    },
+    "row": {
+      "timing": "now",
+      "round": 1
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A6"
+    },
+    "row": {
+      "timing": "now",
+      "round": 1
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A8"
+    },
+    "row": {
+      "timing": "later",
+      "round": ""
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A1"
+    },
+    "row": {
+      "timing": "later",
+      "round": ""
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A7"
+    },
+    "row": {
+      "timing": "later",
+      "round": ""
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A9"
+    },
+    "row": {
+      "timing": "later",
+      "round": ""
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-09T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Experiments",
+    "op": "append",
+    "key": {
+      "id": "E1-1"
+    },
+    "row": {
+      "id": "E1-1",
+      "round": 1,
+      "name": "Will office managers pay for this?",
+      "kind": "Marketing",
+      "claim": "Office managers at independent dental practices will answer a cold message, book a call, and pay $149 a month to have cancelled slots filled for them.",
+      "assumption_ids": "A2,A6",
+      "channel": "Cold email, LinkedIn",
+      "tools": "Google Sheets,Carrd,Apollo,Calendly,Zoom",
+      "hours_cap": 40,
+      "cash_cap": 450,
+      "start_date": "2026-11-09",
+      "kill_date": "2026-12-07",
+      "success_bar": "10 or more calls booked and 2 or more practices pay the first month ($149) by 2026-12-07.",
+      "failure_bar": "Fewer than 5 calls booked, or no practice pays, by 2026-12-07.",
+      "inconclusive_bar": "Anything between the two bars by 2026-12-07 (5 to 9 calls booked, or 10 or more calls and only 1 payment).",
+      "primary_metric": "Calls booked, and first months paid",
+      "status": "Define",
+      "hypothesis": "If we send 240 short messages (150 by email, 90 on LinkedIn) to office managers and owner-dentists at independent practices in the Portland area, and show the $149 price on one page, then at least 10 will book a call and at least 2 will pay the first month, because empty chairs cost them money every week.",
+      "methodology": "Build a list of 240 practices by hand. Send 150 emails and 90 LinkedIn messages over the first week. One landing page shows the price and a sign-up button. Every reply gets a 20-minute call, and every call ends with a payment link for the first month. Count calls booked, calls held and first months paid. Cost counted: tools only.",
+      "rationale": "Both assumptions are about whether we can find and sell to office managers. One outreach run tests the price and the cost of reaching them together.",
+      "informs": "E1-2"
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A2"
+    },
+    "row": {
+      "round": 1,
+      "experiment_ids": "E1-1"
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A6"
+    },
+    "row": {
+      "round": 1,
+      "experiment_ids": "E1-1"
+    }
+  },
+  {
+    "tab": "Experiments",
+    "op": "append",
+    "key": {
+      "id": "E1-2"
+    },
+    "row": {
+      "id": "E1-2",
+      "round": 1,
+      "name": "Can we fill a cancelled slot by text?",
+      "kind": "Product",
+      "claim": "Using only a daily cancellation list from the practice, we can text waiting patients and fill a cancelled slot within two hours, without upsetting patients.",
+      "assumption_ids": "A3,A5,A4",
+      "channel": "Other (pilot with three practices from the Marketing calls)",
+      "tools": "Google Sheets,Other",
+      "hours_cap": 36,
+      "cash_cap": 150,
+      "start_date": "2026-11-09",
+      "kill_date": "2026-12-07",
+      "success_bar": "5 or more of 15 cancelled slots filled within 2 hours, at least 2 of 3 practices send their own cancellation list, and 3 in 100 patients or fewer opt out.",
+      "failure_bar": "2 or fewer of 15 slots filled, or fewer than 2 of 3 practices can send a list, or more than 6 in 100 patients opt out.",
+      "inconclusive_bar": "Anything between the two bars by 2026-12-07 (3 or 4 of 15 slots filled, or opt-outs between 3 and 6 in 100).",
+      "primary_metric": "Cancelled slots filled within 2 hours, out of 15 offered",
+      "status": "Define",
+      "hypothesis": "If three practices each send us their cancellations and we text their waiting patients by hand, then at least 5 of 15 cancelled slots will be filled within 2 hours and no more than 3 in 100 patients will opt out, because patients on a waiting list want an earlier time.",
+      "methodology": "Hand-run pilot, nothing is built. Three practices from the Marketing calls send us each cancellation by file or copy. Dara texts the waiting patients from one shared number, records who said yes and how fast, and counts opt-outs. Pilot runs two weeks, free, starting 2026-11-16.",
+      "rationale": "These three assumptions all need a real cancellation and a real waiting patient. The practice's ability to send the list decides whether the other two can be tested at all, so they are run as one pilot.",
+      "depends_on": "E1-1"
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A3"
+    },
+    "row": {
+      "round": 1,
+      "experiment_ids": "E1-2"
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A5"
+    },
+    "row": {
+      "round": 1,
+      "experiment_ids": "E1-2"
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A4"
+    },
+    "row": {
+      "round": 1,
+      "experiment_ids": "E1-2"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-09T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Experiments",
+    "op": "update",
+    "key": {
+      "id": "E1-1"
+    },
+    "row": {
+      "primary_metric": "Calls booked, and first months paid",
+      "notes": "Bars basis: Reply rates and bookings are rough numbers for a cold list in a small local market; the founder sets them and can explain them."
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-09T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Experiments",
+    "op": "update",
+    "key": {
+      "id": "E1-2"
+    },
+    "row": {
+      "primary_metric": "Cancelled slots filled within 2 hours, out of 15 offered",
+      "notes": "Bars basis: Slots filled out of 15 offered is the number the pilot can count by hand."
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-09T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Sessions",
+    "op": "append",
+    "key": {
+      "session_ref": "Define round 1 2026-11-09"
+    },
+    "row": {
+      "session_ref": "Define round 1 2026-11-09",
+      "method": "Define",
+      "status": "Closed",
+      "current_step": "Handed to Build",
+      "started": "2026-11-09T10:00:00Z",
+      "last_activity": "2026-11-09T10:00:00Z",
+      "summary": "Round 1 defined with the founder: E1-1 (Marketing) and E1-2 (Product), lines and kill dates set.",
+      "rows_written": "A2,A3,A4,A5,A6,E1-1,E1-2"
+    }
+  },
+  {
+    "tab": "Decisions",
+    "op": "append",
+    "key": {
+      "id": "Q1"
+    },
+    "row": {
+      "id": "Q1",
+      "date": "2026-11-09",
+      "round": 1,
+      "decision": "The Marketing and the Product experiment, the three lines for each, and the kill date of 2026-12-07.",
+      "made_by": "Founder",
+      "assumption_ids": "A2,A3,A4,A5,A6",
+      "source": "Define round 1 2026-11-09"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_experiment_design"
+    },
+    "row": {
+      "key": "last_write_experiment_design",
+      "value": "2026-11-09T10:00:00Z"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-09T10:00:00Z"
+    }
+  }
+]

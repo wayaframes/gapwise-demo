@@ -1,0 +1,1056 @@
+{
+  "setup": {
+    "last_write_any": "2026-11-30T09:00:00Z",
+    "last_write_experiment_design": "2026-11-09T10:00:00Z",
+    "product_root_folder_id": "1Q8QTpHl_4bhL6A8W3cnF4RdyqR0IhO3u",
+    "product_name": "Gapwise",
+    "ikigai_url": "https://docs.google.com/document/d/1VNUu5bGBuqq8PYEGOMjmJvVquMDmvPmEnW1_ekPYlJo/edit",
+    "business_case_url": "https://docs.google.com/document/d/1_8bOdLb--HPqsb11PE1JzIImjPy1mmkwQtMuU3rFAwQ/edit",
+    "mission_values_url": "https://docs.google.com/document/d/1ulSRQNT16hGU38zpDdT7XZ2Q9cTUQlTEUAEuipB220M/edit",
+    "experiment_database_url": "https://docs.google.com/spreadsheets/d/1c59vOvgzMrZy7Kz6c6H5eVP5tHXDlPfpGjt5WFnaN7I/edit",
+    "transcripts_folder_url": "https://drive.google.com/drive/folders/1vjj_K7ngwuhiBm2BGuD7lBMrmsl5WdMR",
+    "financial_model_url": "https://docs.google.com/spreadsheets/d/1CbvcC6mmtjLrkkUetKeXuyg7ZhPyedW__Y5C_0ugnVo/edit",
+    "tools_chosen": "Sheets, Calendar, Gmail, GitHub",
+    "github_repo_url": "https://github.com/wayaframes/gapwise-demo",
+    "product_board_url": "https://github.com/orgs/wayaframes/projects/8",
+    "landing_page_platform": "GitHub Pages",
+    "landing_page_path": "demo/gapwise/site/index.html",
+    "landing_page_url": "https://wayaframes.github.io/gapwise-demo/",
+    "crm_path": "waya-crm",
+    "crm": "Waya CRM",
+    "interview_questions_url": "https://docs.google.com/document/d/1MP1OVRNDE6dOxIbVcDK3aIgFGpI3TS0_z2vH4uj5Jp0/edit"
+  },
+  "Analysis": {
+    "rounds": []
+  },
+  "Assumptions": [
+    {
+      "id": "A1",
+      "statement": "Office managers at independent dental practices lose at least 3 appointment slots a week to last-minute cancellations.",
+      "origin": "Business case",
+      "type": "Desirability",
+      "impact": 5,
+      "evidence": 4,
+      "blocks": "no",
+      "risk_index": 10,
+      "effort": 6,
+      "evidence_source": "Dara's six years at one practice (about 5 lost slots a week). One practice only.",
+      "timing": "later",
+      "round": "",
+      "experiment_ids": ""
+    },
+    {
+      "id": "A2",
+      "statement": "Independent dental practices will pay $149 a month to have cancelled slots filled for them.",
+      "origin": "Business case",
+      "type": "Viability",
+      "impact": 5,
+      "evidence": 1,
+      "blocks": "no",
+      "risk_index": 25,
+      "effort": 22,
+      "evidence_source": "None. Nobody has been asked to pay yet.",
+      "timing": "now",
+      "round": 1,
+      "experiment_ids": "E1-1"
+    },
+    {
+      "id": "A3",
+      "statement": "A practice can give us its daily cancellation list (by file or by copy) without any custom software work.",
+      "origin": "Business case",
+      "type": "Feasibility",
+      "impact": 5,
+      "evidence": 2,
+      "blocks": "yes",
+      "risk_index": 30,
+      "effort": 18,
+      "evidence_source": "Dara's old practice software had an export, but practices use many different programs and none has been checked.",
+      "timing": "now",
+      "round": 1,
+      "experiment_ids": "E1-2"
+    },
+    {
+      "id": "A4",
+      "statement": "Waiting patients accept offer texts: no more than 3 in 100 opt out.",
+      "origin": "Business case",
+      "type": "Desirability",
+      "impact": 4,
+      "evidence": 2,
+      "blocks": "no",
+      "risk_index": 16,
+      "effort": 10,
+      "evidence_source": "Patients at Dara's old practice agreed to reminder texts. Nobody has been asked about offer texts.",
+      "timing": "now",
+      "round": 1,
+      "experiment_ids": "E1-2"
+    },
+    {
+      "id": "A5",
+      "statement": "Waiting patients take a day-of offer fast enough that at least 1 in 3 cancelled slots is filled within 2 hours.",
+      "origin": "Business case",
+      "type": "Desirability",
+      "impact": 4,
+      "evidence": 1,
+      "blocks": "no",
+      "risk_index": 20,
+      "effort": 14,
+      "evidence_source": "None. Dara's guess from the waiting list at her old practice.",
+      "timing": "now",
+      "round": 1,
+      "experiment_ids": "E1-2"
+    },
+    {
+      "id": "A6",
+      "statement": "We can reach office managers by cold email and LinkedIn for $60 or less per booked call.",
+      "origin": "Business case",
+      "type": "Viability",
+      "impact": 4,
+      "evidence": 2,
+      "blocks": "no",
+      "risk_index": 16,
+      "effort": 12,
+      "evidence_source": "Two replies to a LinkedIn post. Nothing measured.",
+      "timing": "now",
+      "round": 1,
+      "experiment_ids": "E1-1"
+    },
+    {
+      "id": "A7",
+      "statement": "We can set up a new practice in under 2 hours.",
+      "origin": "Business case",
+      "type": "Feasibility",
+      "impact": 3,
+      "evidence": 3,
+      "blocks": "no",
+      "risk_index": 9,
+      "effort": 10,
+      "evidence_source": "Dara did the setup once at her old practice in about 3 hours.",
+      "timing": "later",
+      "round": "",
+      "experiment_ids": ""
+    },
+    {
+      "id": "A8",
+      "statement": "At least 8 in 10 practices that start are still paying in month 3.",
+      "origin": "Business case",
+      "type": "Viability",
+      "impact": 3,
+      "evidence": 1,
+      "blocks": "no",
+      "risk_index": 15,
+      "effort": 60,
+      "evidence_source": "None. Needs three months of paying practices.",
+      "timing": "later",
+      "round": "",
+      "experiment_ids": ""
+    },
+    {
+      "id": "A9",
+      "statement": "Front-desk staff see the service as relief, not a threat to their jobs.",
+      "origin": "Mission and values",
+      "type": "Desirability",
+      "impact": 2,
+      "evidence": 3,
+      "blocks": "no",
+      "risk_index": 6,
+      "effort": 8,
+      "evidence_source": "Three former colleagues said they would like it. Friendly, not tested.",
+      "timing": "later",
+      "round": "",
+      "experiment_ids": ""
+    }
+  ],
+  "Experiments": [
+    {
+      "id": "E1-1",
+      "round": 1,
+      "name": "Will office managers pay for this?",
+      "kind": "Marketing",
+      "claim": "Office managers at independent dental practices will answer a cold message, book a call, and pay $149 a month to have cancelled slots filled for them.",
+      "assumption_ids": "A2,A6",
+      "channel": "Cold email, LinkedIn",
+      "tools": "Google Sheets,Carrd,Apollo,Calendly,Zoom",
+      "hours_cap": 40,
+      "cash_cap": 450,
+      "start_date": "2026-11-09",
+      "kill_date": "2026-12-07",
+      "success_bar": "10 or more calls booked and 2 or more practices pay the first month ($149) by 2026-12-07.",
+      "failure_bar": "Fewer than 5 calls booked, or no practice pays, by 2026-12-07.",
+      "inconclusive_bar": "Anything between the two bars by 2026-12-07 (5 to 9 calls booked, or 10 or more calls and only 1 payment).",
+      "primary_metric": "Calls booked, and first months paid",
+      "status": "Track",
+      "hypothesis": "If we send 240 short messages (150 by email, 90 on LinkedIn) to office managers and owner-dentists at independent practices in the Portland area, and show the $149 price on one page, then at least 10 will book a call and at least 2 will pay the first month, because empty chairs cost them money every week.",
+      "methodology": "Build a list of 240 practices by hand. Send 150 emails and 90 LinkedIn messages over the first week. One landing page shows the price and a sign-up button. Every reply gets a 20-minute call, and every call ends with a payment link for the first month. Count calls booked, calls held and first months paid. Cost counted: tools only.",
+      "rationale": "Both assumptions are about whether we can find and sell to office managers. One outreach run tests the price and the cost of reaching them together.",
+      "informs": "E1-2",
+      "notes": "Bars basis: Reply rates and bookings are rough numbers for a cold list in a small local market; the founder sets them and can explain them.",
+      "hours_actual": 34,
+      "cash_actual": 190
+    },
+    {
+      "id": "E1-2",
+      "round": 1,
+      "name": "Can we fill a cancelled slot by text?",
+      "kind": "Product",
+      "claim": "Using only a daily cancellation list from the practice, we can text waiting patients and fill a cancelled slot within two hours, without upsetting patients.",
+      "assumption_ids": "A3,A5,A4",
+      "channel": "Other (pilot with three practices from the Marketing calls)",
+      "tools": "Google Sheets,Other",
+      "hours_cap": 36,
+      "cash_cap": 150,
+      "start_date": "2026-11-09",
+      "kill_date": "2026-12-07",
+      "success_bar": "5 or more of 15 cancelled slots filled within 2 hours, at least 2 of 3 practices send their own cancellation list, and 3 in 100 patients or fewer opt out.",
+      "failure_bar": "2 or fewer of 15 slots filled, or fewer than 2 of 3 practices can send a list, or more than 6 in 100 patients opt out.",
+      "inconclusive_bar": "Anything between the two bars by 2026-12-07 (3 or 4 of 15 slots filled, or opt-outs between 3 and 6 in 100).",
+      "primary_metric": "Cancelled slots filled within 2 hours, out of 15 offered",
+      "status": "Track",
+      "hypothesis": "If three practices each send us their cancellations and we text their waiting patients by hand, then at least 5 of 15 cancelled slots will be filled within 2 hours and no more than 3 in 100 patients will opt out, because patients on a waiting list want an earlier time.",
+      "methodology": "Hand-run pilot, nothing is built. Three practices from the Marketing calls send us each cancellation by file or copy. Dara texts the waiting patients from one shared number, records who said yes and how fast, and counts opt-outs. Pilot runs two weeks, free, starting 2026-11-16.",
+      "rationale": "These three assumptions all need a real cancellation and a real waiting patient. The practice's ability to send the list decides whether the other two can be tested at all, so they are run as one pilot.",
+      "depends_on": "E1-1",
+      "notes": "Bars basis: Slots filled out of 15 offered is the number the pilot can count by hand.",
+      "hours_actual": 31,
+      "cash_actual": 64
+    }
+  ],
+  "Customers": [
+    {
+      "id": "C1",
+      "experiment_id": "E1-1",
+      "assumption_ids": "A2,A6",
+      "date": "2026-11-12",
+      "name": "Priya Raman",
+      "company_or_segment": "Lakeside Family Dental; ICP Office manager, independent dental practice, 1 to 4 dentists",
+      "channel": "LinkedIn",
+      "last_conversation_date": "2026-11-24",
+      "next_step": "Send new consent wording by Friday 2026-11-27; send offers only to patients who agreed to more than reminders; take the introduction.",
+      "call_booked": "2026-11-12",
+      "call_held": "2026-11-12",
+      "conclusion": "Paying practice. Needs new consent wording before more offer texts.",
+      "paid": "yes",
+      "paid_date": "2026-11-24",
+      "founder_hours": 3
+    },
+    {
+      "id": "C2",
+      "experiment_id": "E1-1",
+      "assumption_ids": "A2,A6",
+      "date": "2026-11-13",
+      "name": "Tom Brandt",
+      "company_or_segment": "Brandt Smiles; ICP Owner-dentist, independent dental practice, 1 to 4 dentists",
+      "channel": "Cold email",
+      "last_conversation_date": "2026-11-13",
+      "next_step": "Email a new booking link by 2026-11-16 and offer a phone call. Try once more; if no reply by 2026-11-23, drop it.",
+      "call_booked": "2026-11-13",
+      "conclusion": "Call failed on audio. Not yet a customer; one more try, then drop."
+    },
+    {
+      "id": "C3",
+      "experiment_id": "E1-1",
+      "assumption_ids": "A2,A6",
+      "date": "2026-11-17",
+      "name": "Lucia Moreno",
+      "company_or_segment": "Moreno & Chen Dentistry; ICP Partner-dentist, independent dental practice, 1 to 4 dentists",
+      "channel": "Cold email",
+      "last_conversation_date": "2026-11-17",
+      "next_step": "Get the consent wording checked with Wei before any offer text goes out; start the pilot with copy-by-email cancellations.",
+      "call_booked": "2026-11-17",
+      "call_held": "2026-11-17",
+      "conclusion": "Paying practice. Pilot starts with copy-by-email cancellations once consent wording is checked.",
+      "paid": "yes",
+      "paid_date": "2026-11-17",
+      "founder_hours": 2
+    }
+  ],
+  "Conversations": [
+    {
+      "id": "N1",
+      "experiment_id": "E1-1",
+      "assumption_ids": "A2,A6",
+      "date": "2026-11-12",
+      "customer_id": "C1",
+      "customer_name": "Priya Raman",
+      "format": "Call",
+      "notes_or_transcript": "Office manager at a 3-chair practice. Lost 6 slots last week, 3 of them day-of, one a 90-minute crown prep. She phones a sticky-note waiting list and half go to voicemail. Guessed a slot is worth $110 to $400. Said $149 a month is nothing if it works, but the owner, Dr. Okonkwo, signs off on bills. Thinks her software can export a cancellation list, not sure. Agreed to a free two-week pilot.",
+      "conclusion": "Send the one-pager tonight; start the free two-week pilot on 2026-11-16 once she has found the export and shown the owner.",
+      "link": "https://docs.google.com/document/d/1Qm7ZkTa3vXn2LrPbH9sWdYc4EoUfJ8gGhK6iNtVaRe5/edit"
+    },
+    {
+      "id": "N2",
+      "experiment_id": "E1-1",
+      "assumption_ids": "A2,A6",
+      "date": "2026-11-13",
+      "customer_id": "C2",
+      "customer_name": "Tom Brandt",
+      "format": "Call",
+      "notes_or_transcript": "Call failed. The guest was driving and the audio was unusable after the first 9 seconds; the call ended after about 1 minute 40 seconds. All that was heard: he thinks his hygienist handles cancellations (unclear) and he may be free Thursday. Nothing was learned about price, the cancellation list or patients. Do not count as a conversation about the product.",
+      "conclusion": "Email a new booking link by 2026-11-16 and offer a phone call. Try once more; if no reply by 2026-11-23, drop it.",
+      "link": "https://docs.google.com/document/d/1Hc5RwPz8YtLd2NqAeJ3vUbXk0MoSfT7rGiW9nEsCj4y/edit"
+    },
+    {
+      "id": "N3",
+      "experiment_id": "E1-1",
+      "assumption_ids": "A2,A6",
+      "date": "2026-11-17",
+      "customer_id": "C3",
+      "customer_name": "Lucia Moreno",
+      "format": "Call",
+      "notes_or_transcript": "Partner-dentist, 4 chairs, 2 dentists. Two empty chairs on Friday, about $1,000 of chair time. Her software is old and only shows a screen, so the front desk would copy the cancellations into an email each morning. Worried about texting patients: their consent form may cover reminders only, her partner Wei will check. Paid the first month ($149) on the call, on the condition that nobody is texted without agreeing.",
+      "conclusion": "Get the consent wording checked with Wei before any offer text goes out; start the pilot with copy-by-email cancellations.",
+      "link": "https://docs.google.com/document/d/1Vb2NxKe6TzLq9RdFhP4YaUc7SoWjM3gCiB8tEnXlAp0/edit"
+    },
+    {
+      "id": "N4",
+      "experiment_id": "E1-1",
+      "assumption_ids": "A2,A6",
+      "date": "2026-11-24",
+      "customer_id": "C1",
+      "customer_name": "Priya Raman",
+      "format": "Call",
+      "notes_or_transcript": "Follow-up with Priya Raman after two weeks of the pilot. Four of 7 offers filled, all before 10 am; the afternoon ones got no answer. Her cancellation export works (she saves a file and emails it, 2 minutes). Four patients replied STOP and one phoned angry: the old consent form covers reminders only. She called it their mistake. She paid the first month ($149) and offered to introduce a friend at another practice.",
+      "conclusion": "Send new consent wording by Friday 2026-11-27; send offers only to patients who agreed to more than reminders; take the introduction.",
+      "link": "https://docs.google.com/document/d/1Jd8PsWn4RyHa6UeLtK2ZoCx9BgTqF5mVkE7iNaXrSb3/edit"
+    }
+  ],
+  "Activities": [
+    {
+      "id": "X1",
+      "assumption_id": "A2",
+      "experiment_id": "E1-1",
+      "kind": "Landing page",
+      "what": "Visits and sign-ups, week 1",
+      "n": 120,
+      "result": "120 visits, 7 sign-ups (5.8%). Pass line: 25 sign-ups and 6% or better by 2026-11-29. Not yet.",
+      "date": "2026-11-15",
+      "link": "https://wayaframes.github.io/gapwise-demo/"
+    },
+    {
+      "id": "X2",
+      "assumption_id": "A2",
+      "experiment_id": "E1-1",
+      "kind": "Landing page",
+      "what": "Visits and sign-ups, to date",
+      "n": 285,
+      "result": "285 visits, 19 sign-ups (6.7%). Pass line: 25 sign-ups and 6% or better by 2026-11-29. Not yet.",
+      "date": "2026-11-22",
+      "link": "https://wayaframes.github.io/gapwise-demo/"
+    },
+    {
+      "id": "X3",
+      "assumption_id": "A2",
+      "experiment_id": "E1-1",
+      "kind": "Landing page",
+      "what": "Visits and sign-ups, to date",
+      "n": 410,
+      "result": "410 visits, 29 sign-ups (7.1%). Pass line: 25 sign-ups and 6% or better. Pass.",
+      "date": "2026-11-29",
+      "link": "https://wayaframes.github.io/gapwise-demo/"
+    },
+    {
+      "id": "X4",
+      "assumption_id": "A6",
+      "experiment_id": "E1-1",
+      "kind": "Cold email",
+      "what": "Emails sent, replies, calls booked",
+      "n": 80,
+      "result": "80 sent, 5 replies (6.3%), 3 calls booked. Pass line: 150 sent, reply rate 8% or better by 2026-11-29. In progress.",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "X5",
+      "assumption_id": "A6",
+      "experiment_id": "E1-1",
+      "kind": "Cold email",
+      "what": "Emails sent, replies, calls booked",
+      "n": 150,
+      "result": "150 sent, 12 replies (8.0%), 7 calls booked. Pass line: 150 sent, reply rate 8% or better. Pass on volume, on the line for replies.",
+      "date": "2026-11-22"
+    },
+    {
+      "id": "X6",
+      "assumption_id": "A6",
+      "experiment_id": "E1-1",
+      "kind": "Cold email",
+      "what": "Emails sent, replies, calls booked",
+      "n": 150,
+      "result": "150 sent, 16 replies (10.7%), 9 calls booked (6.0%). Pass line: reply rate 8% or better. Pass.",
+      "date": "2026-11-29"
+    },
+    {
+      "id": "X7",
+      "assumption_id": "A6",
+      "experiment_id": "E1-1",
+      "kind": "Other",
+      "what": "Messages sent, replies, calls booked",
+      "n": 40,
+      "result": "40 sent, 6 replies (15.0%), 2 calls booked. Pass line: 90 sent, reply rate 10% or better by 2026-11-29. In progress.",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "X8",
+      "assumption_id": "A6",
+      "experiment_id": "E1-1",
+      "kind": "Other",
+      "what": "Messages sent, replies, calls booked",
+      "n": 90,
+      "result": "90 sent, 12 replies (13.3%), 4 calls booked. Pass line: 90 sent, reply rate 10% or better. Pass.",
+      "date": "2026-11-22"
+    },
+    {
+      "id": "X9",
+      "assumption_id": "A6",
+      "experiment_id": "E1-1",
+      "kind": "Other",
+      "what": "Messages sent, replies, calls booked",
+      "n": 90,
+      "result": "90 sent, 15 replies (16.7%), 5 calls booked (5.6%). Pass line: reply rate 10% or better. Pass.",
+      "date": "2026-11-29"
+    },
+    {
+      "id": "X10",
+      "assumption_id": "A6",
+      "experiment_id": "E1-1",
+      "kind": "Customer calls",
+      "what": "Interviews held (and booked)",
+      "n": 3,
+      "result": "5 booked, 3 held. Pass line: 10 or more booked by 2026-12-07 (success bar of the Marketing experiment). In progress.",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "X11",
+      "assumption_id": "A6",
+      "experiment_id": "E1-1",
+      "kind": "Customer calls",
+      "what": "Interviews held (and booked)",
+      "n": 8,
+      "result": "11 booked, 8 held. Pass line: 10 or more booked. Pass on booked.",
+      "date": "2026-11-22"
+    },
+    {
+      "id": "X12",
+      "assumption_id": "A6",
+      "experiment_id": "E1-1",
+      "kind": "Customer calls",
+      "what": "Interviews held (and booked)",
+      "n": 12,
+      "result": "14 booked, 12 held, 2 no-shows. Pass line: 10 or more booked. Pass. Only 4 call transcripts have been filed so far.",
+      "date": "2026-11-29"
+    },
+    {
+      "id": "X13",
+      "assumption_id": "A2",
+      "experiment_id": "E1-1",
+      "kind": "Other",
+      "what": "First months paid ($149 each)",
+      "n": 1,
+      "result": "1 practice paid. Pass line: 2 or more practices pay the first month by 2026-12-07. Not yet.",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "X14",
+      "assumption_id": "A2",
+      "experiment_id": "E1-1",
+      "kind": "Other",
+      "what": "First months paid ($149 each)",
+      "n": 2,
+      "result": "2 practices paid ($298). Pass line: 2 or more. Pass.",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "X15",
+      "assumption_id": "A2",
+      "experiment_id": "E1-1",
+      "kind": "Other",
+      "what": "First months paid ($149 each)",
+      "n": 3,
+      "result": "3 practices paid ($447). Pass line: 2 or more. Pass.",
+      "date": "2026-11-29"
+    },
+    {
+      "id": "X16",
+      "assumption_id": "A5",
+      "experiment_id": "E1-2",
+      "kind": "Other",
+      "what": "Cancelled slots offered and filled within 2 hours",
+      "n": 8,
+      "result": "8 offered, 3 filled (38%). Pass line: 5 of 15 filled. Failure line: 2 or fewer of 15. Too early.",
+      "date": "2026-11-22"
+    },
+    {
+      "id": "X17",
+      "assumption_id": "A5",
+      "experiment_id": "E1-2",
+      "kind": "Other",
+      "what": "Cancelled slots offered and filled within 2 hours",
+      "n": 15,
+      "result": "15 offered, 4 filled (27%). All 4 fills came from offers sent before 10 am, all at one practice (Lakeside). Pass line: 5 of 15. Failure line: 2 or fewer. Between the two lines.",
+      "date": "2026-11-29"
+    },
+    {
+      "id": "X18",
+      "assumption_id": "A3",
+      "experiment_id": "E1-2",
+      "kind": "Other",
+      "what": "Practices that sent their own cancellation list",
+      "n": 3,
+      "result": "2 of 3 practices sent a list by file or email each morning; 1 (Moreno & Chen) copies it from the screen by hand into an email. Pass line: 2 of 3 send their own. Pass.",
+      "date": "2026-11-29"
+    },
+    {
+      "id": "X19",
+      "assumption_id": "A4",
+      "experiment_id": "E1-2",
+      "kind": "Other",
+      "what": "Patients who replied STOP",
+      "n": 212,
+      "result": "212 offer texts to waiting patients, 4 opt-outs (1.9%), all four at Lakeside, whose old consent form covers reminders only. Pass line: 3 in 100 or fewer. Failure line: more than 6 in 100. Pass on the number.",
+      "date": "2026-11-29"
+    }
+  ],
+  "Learnings": [],
+  "Decisions": [
+    {
+      "id": "Q1",
+      "date": "2026-11-09",
+      "round": 1,
+      "decision": "The Marketing and the Product experiment, the three lines for each, and the kill date of 2026-12-07.",
+      "made_by": "Founder",
+      "assumption_ids": "A2,A3,A4,A5,A6",
+      "source": "Define round 1 2026-11-09"
+    }
+  ],
+  "Sessions": [
+    {
+      "session_ref": "Define round 1 2026-11-09",
+      "method": "Define",
+      "status": "Closed",
+      "current_step": "Handed to Build",
+      "started": "2026-11-09T10:00:00Z",
+      "last_activity": "2026-11-09T10:00:00Z",
+      "summary": "Round 1 defined with the founder: E1-1 (Marketing) and E1-2 (Product), lines and kill dates set.",
+      "rows_written": "A2,A3,A4,A5,A6,E1-1,E1-2"
+    },
+    {
+      "session_ref": "Build round 1 2026-11-10",
+      "method": "Build",
+      "status": "Paused",
+      "current_step": "Build set-up in progress",
+      "started": "2026-11-10T10:00:00Z",
+      "last_activity": "2026-11-10T10:00:00Z",
+      "summary": "Build is not complete: 13 of 15 set-up items are done. Missing: Gmail connected and tested; Marketing board.",
+      "rows_written": "D1-D11,T1-T12"
+    },
+    {
+      "session_ref": "Track 2026-11-30",
+      "method": "Track",
+      "status": "Closed",
+      "current_step": "Track",
+      "started": "2026-11-30T09:00:00Z",
+      "last_activity": "2026-11-30T09:00:00Z",
+      "summary": "Filed four calls, read six instruments, logged hours.",
+      "rows_written": "N1,N2,N3,N4,X1"
+    }
+  ],
+  "Documents": [
+    {
+      "id": "D1",
+      "name": "Product folder",
+      "kind": "Other",
+      "url": "https://drive.google.com/drive/folders/1Q8QTpHl_4bhL6A8W3cnF4RdyqR0IhO3u",
+      "owner_email": "dara@gapwise.example",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved",
+      "notes": "Folder: Gapwise"
+    },
+    {
+      "id": "D2",
+      "name": "Ikigai",
+      "kind": "Google Doc",
+      "url": "https://docs.google.com/document/d/1VNUu5bGBuqq8PYEGOMjmJvVquMDmvPmEnW1_ekPYlJo/edit",
+      "owner_email": "dara@gapwise.example",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved"
+    },
+    {
+      "id": "D3",
+      "name": "Business case",
+      "kind": "Google Doc",
+      "url": "https://docs.google.com/document/d/1_8bOdLb--HPqsb11PE1JzIImjPy1mmkwQtMuU3rFAwQ/edit",
+      "owner_email": "dara@gapwise.example",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved"
+    },
+    {
+      "id": "D4",
+      "name": "Mission and values",
+      "kind": "Google Doc",
+      "url": "https://docs.google.com/document/d/1ulSRQNT16hGU38zpDdT7XZ2Q9cTUQlTEUAEuipB220M/edit",
+      "owner_email": "dara@gapwise.example",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved"
+    },
+    {
+      "id": "D5",
+      "name": "Experiment database",
+      "kind": "Google Sheet",
+      "url": "https://docs.google.com/spreadsheets/d/1c59vOvgzMrZy7Kz6c6H5eVP5tHXDlPfpGjt5WFnaN7I/edit",
+      "owner_email": "dara@gapwise.example",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved"
+    },
+    {
+      "id": "D6",
+      "name": "Transcripts folder",
+      "kind": "Other",
+      "url": "https://drive.google.com/drive/folders/1vjj_K7ngwuhiBm2BGuD7lBMrmsl5WdMR",
+      "owner_email": "dara@gapwise.example",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved"
+    },
+    {
+      "id": "D7",
+      "name": "Financial Model",
+      "kind": "Google Sheet",
+      "url": "https://docs.google.com/spreadsheets/d/1CbvcC6mmtjLrkkUetKeXuyg7ZhPyedW__Y5C_0ugnVo/edit",
+      "owner_email": "dara@gapwise.example",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved",
+      "notes": "seeded, not confirmed"
+    },
+    {
+      "id": "D8",
+      "name": "GitHub repo",
+      "kind": "GitHub issues",
+      "url": "https://github.com/wayaframes/gapwise-demo",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved",
+      "notes": ""
+    },
+    {
+      "id": "D9",
+      "name": "Product board",
+      "kind": "GitHub issues",
+      "url": "https://github.com/orgs/wayaframes/projects/8",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved",
+      "notes": ""
+    },
+    {
+      "id": "D10",
+      "name": "Waya CRM",
+      "kind": "Google Sheet",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Not written",
+      "notes": "Lightweight Google Sheet CRM for the first one or two rounds"
+    },
+    {
+      "id": "D11",
+      "name": "Interview questions",
+      "kind": "Google Doc",
+      "url": "https://docs.google.com/document/d/1MP1OVRNDE6dOxIbVcDK3aIgFGpI3TS0_z2vH4uj5Jp0/edit",
+      "owner_email": "dara@gapwise.example",
+      "last_updated": "2026-11-10T10:00:00Z",
+      "status": "Saved"
+    }
+  ],
+  "Instruments": [
+    {
+      "id": "T1",
+      "round": 1,
+      "name": "Sheets connection",
+      "kind": "Other",
+      "purpose": "The founder's Sheets connection the round runs on.",
+      "read_ok": "yes",
+      "write_ok": "yes",
+      "last_instruction": "[WEP-Build-v1] tested read yes, write yes: Read and wrote the Gapwise Experiment database through the Sheets connector on 2026-11-02.",
+      "last_timestamp": "2026-11-10T10:00:00Z",
+      "status": "Live"
+    },
+    {
+      "id": "T2",
+      "round": 1,
+      "name": "Calendar connection",
+      "kind": "Other",
+      "purpose": "The founder's Calendar connection the round runs on.",
+      "read_ok": "yes",
+      "write_ok": "yes",
+      "last_instruction": "[WEP-Build-v1] tested read yes, write yes: Created four events and read one back on 2026-11-02.",
+      "last_timestamp": "2026-11-10T10:00:00Z",
+      "status": "Live"
+    },
+    {
+      "id": "T3",
+      "round": 1,
+      "name": "Gmail connection",
+      "kind": "Other",
+      "purpose": "The founder's Gmail connection the round runs on.",
+      "read_ok": "untested",
+      "write_ok": "untested",
+      "last_instruction": "[WEP-Build-v1] tested read untested, write untested: Not used in this run.",
+      "last_timestamp": "2026-11-10T10:00:00Z",
+      "status": "Planned"
+    },
+    {
+      "id": "T4",
+      "round": 1,
+      "name": "GitHub connection",
+      "kind": "Other",
+      "purpose": "The founder's GitHub connection the round runs on.",
+      "read_ok": "yes",
+      "write_ok": "yes",
+      "last_instruction": "[WEP-Build-v1] tested read yes, write yes: Created the public repo, pushed the page, turned on Pages and copied the board on 2026-11-02.",
+      "last_timestamp": "2026-11-10T10:00:00Z",
+      "status": "Live"
+    },
+    {
+      "id": "T5",
+      "round": 1,
+      "name": "Gapwise landing page",
+      "kind": "Landing page",
+      "purpose": "The page that turns visitors into sign-ups for the round.",
+      "url": "https://wayaframes.github.io/gapwise-demo/",
+      "read_ok": "yes",
+      "write_ok": "yes",
+      "last_instruction": "[WEP-Track-v1] Visits and sign-ups, to date: 410; 410 visits, 29 sign-ups (7.1%). Pass line: 25 sign-ups and 6% or better. Pass.",
+      "last_timestamp": "2026-11-30T09:00:00Z",
+      "status": "Live",
+      "experiment_id": "E1-1",
+      "notes": "Platform: GitHub Pages. File: demo/gapwise/site/index.html. UTM plan: demo/gapwise/site/UTM-PLAN.md."
+    },
+    {
+      "id": "T6",
+      "round": 1,
+      "name": "Calendar",
+      "kind": "Calendar",
+      "purpose": "Customers book calls here (Google Calendar (oren@wayaframes.com)).",
+      "read_ok": "yes",
+      "write_ok": "yes",
+      "last_instruction": "[WEP-Build-v1] tested read yes, write yes",
+      "last_timestamp": "2026-11-10T10:00:00Z",
+      "status": "Live"
+    },
+    {
+      "id": "T7",
+      "round": 1,
+      "name": "CRM",
+      "kind": "CRM",
+      "purpose": "Where customers and their next steps live (the Waya CRM sheet).",
+      "read_ok": "untested",
+      "write_ok": "untested",
+      "last_instruction": "[WEP-Build-v1] Waya CRM chosen",
+      "last_timestamp": "2026-11-10T10:00:00Z",
+      "status": "Planned"
+    },
+    {
+      "id": "T8",
+      "round": 1,
+      "experiment_id": "E1-1",
+      "name": "Cold email sequence",
+      "kind": "Cold email",
+      "purpose": "Emails to office managers",
+      "read_ok": "yes",
+      "write_ok": "untested",
+      "status": "Built",
+      "last_instruction": "[WEP-Track-v1] Emails sent, replies, calls booked: 150; 150 sent, 16 replies (10.7%), 9 calls booked (6.0%). Pass line: reply rate 8% or better. Pass.",
+      "last_timestamp": "2026-11-30T09:00:00Z"
+    },
+    {
+      "id": "T9",
+      "round": 1,
+      "experiment_id": "E1-1",
+      "name": "LinkedIn messages",
+      "kind": "Other",
+      "purpose": "LinkedIn messages to office managers",
+      "read_ok": "yes",
+      "write_ok": "untested",
+      "status": "Built",
+      "last_instruction": "[WEP-Track-v1] Messages sent, replies, calls booked: 90; 90 sent, 15 replies (16.7%), 5 calls booked (5.6%). Pass line: reply rate 10% or better. Pass.",
+      "last_timestamp": "2026-11-30T09:00:00Z"
+    },
+    {
+      "id": "T10",
+      "round": 1,
+      "experiment_id": "E1-1",
+      "name": "Interviews",
+      "kind": "Calendar",
+      "purpose": "Calls booked and held",
+      "read_ok": "yes",
+      "write_ok": "untested",
+      "status": "Built",
+      "last_instruction": "[WEP-Track-v1] Interviews held (and booked): 12; 14 booked, 12 held, 2 no-shows. Pass line: 10 or more booked. Pass. Only 4 call transcripts have been filed so far.",
+      "last_timestamp": "2026-11-30T09:00:00Z"
+    },
+    {
+      "id": "T11",
+      "round": 1,
+      "experiment_id": "E1-1",
+      "name": "Payment link",
+      "kind": "Other",
+      "purpose": "First month paid",
+      "read_ok": "yes",
+      "write_ok": "not needed",
+      "status": "Built",
+      "last_instruction": "[WEP-Track-v1] First months paid ($149 each): 3; 3 practices paid ($447). Pass line: 2 or more. Pass.",
+      "last_timestamp": "2026-11-30T09:00:00Z"
+    },
+    {
+      "id": "T12",
+      "round": 1,
+      "experiment_id": "E1-2",
+      "name": "Pilot log (hand-run texting)",
+      "kind": "Other",
+      "purpose": "Slots offered and filled, lists, opt-outs",
+      "read_ok": "yes",
+      "write_ok": "untested",
+      "status": "Built",
+      "last_instruction": "[WEP-Track-v1] Patients who replied STOP: 212; 212 offer texts to waiting patients, 4 opt-outs (1.9%), all four at Lakeside, whose old consent form covers reminders only. Pass line: 3 in 100 or fewer. Failure line: more than 6 in 100. Pass on the number.",
+      "last_timestamp": "2026-11-30T09:00:00Z"
+    }
+  ],
+  "Log": [
+    {
+      "date": "2026-11-29",
+      "day": "Sunday",
+      "what": "Hours on E1-1",
+      "hours": 34,
+      "running": 34
+    },
+    {
+      "date": "2026-11-29",
+      "day": "Sunday",
+      "what": "Hours on E1-2",
+      "hours": 31,
+      "running": 65
+    },
+    {
+      "date": "2026-11-30",
+      "day": "Monday",
+      "what": "Reading the status",
+      "hours": 1,
+      "running": 66
+    }
+  ],
+  "FinancialUpdates": [],
+  "Survey responses": [],
+  "financial_model": {
+    "levers": {
+      "price": 149,
+      "customers_per_month": 1.7,
+      "acquisition_cost": 300,
+      "gross_margin": 0.8523,
+      "fixed_costs": 240,
+      "founder_hours_value": 0,
+      "founder_hours_per_month": 87,
+      "churn": 0.05,
+      "opening_cash": 9000
+    },
+    "sources": {
+      "price": {
+        "section": "The numbers",
+        "quote": "Price: $149 a month per practice, month to month, no contract.",
+        "confidence": "Known",
+        "note": "stated in the case"
+      },
+      "customers_per_month": {
+        "section": "The numbers",
+        "quote": "Target: 12 paying practices by 2027-05-31 (that is $1,788 a month).",
+        "confidence": "Estimate",
+        "note": "12 practices over about 7 months is about 1.7 a month"
+      },
+      "acquisition_cost": {
+        "section": "The numbers",
+        "quote": "my guess is $300",
+        "confidence": "Guess",
+        "note": "the founder's own guess; the first round replaces it"
+      },
+      "gross_margin": {
+        "section": "The numbers",
+        "quote": "Cost to deliver: $22 per practice per month ($14 texts, $5 card fees, $3 support tools). My own time is about 1.5 hours per practice per month and is not charged.",
+        "confidence": "Estimate",
+        "note": "(149 - 22) / 149"
+      },
+      "fixed_costs": {
+        "section": "The numbers",
+        "quote": "Fixed costs: $240 a month (texting base $49, website and tools $99, booking $22, insurance and accounts $70).",
+        "confidence": "Known",
+        "note": "stated in the case"
+      },
+      "founder_hours_value": {
+        "confidence": "Guess",
+        "note": "The case says living costs are ASK; held at 0 and never turned into cash"
+      },
+      "founder_hours_per_month": {
+        "section": "The numbers",
+        "quote": "Time: 20 hours a week",
+        "confidence": "Estimate",
+        "note": "20 hours a week x 52 / 12"
+      },
+      "churn": {
+        "confidence": "Guess",
+        "note": "Nothing in the case; a placeholder until a round gives data"
+      },
+      "opening_cash": {
+        "section": "The numbers",
+        "quote": "Cash I can put in: $9,000",
+        "confidence": "Known",
+        "note": "stated in the case"
+      }
+    },
+    "scenarios": [
+      {
+        "experiment_id": "E1-1",
+        "accepted": {
+          "acquisition_cost": 150
+        },
+        "rejected": {
+          "acquisition_cost": 600
+        },
+        "moves": "acquisition_cost"
+      },
+      {
+        "experiment_id": "E1-2",
+        "accepted": {
+          "customers_per_month": 2
+        },
+        "rejected": {
+          "customers_per_month": 1
+        },
+        "moves": "customers_per_month"
+      }
+    ],
+    "evidence": [
+      {
+        "lever": "Price per customer per month",
+        "lever_key": "price",
+        "seeded_value": 149,
+        "section": "The numbers",
+        "source_field": "",
+        "quote": "Price: $149 a month per practice, month to month, no contract.",
+        "confidence": "Known",
+        "confirmed_by_founder": "yes",
+        "confirmed_value": "",
+        "notes": "stated in the case"
+      },
+      {
+        "lever": "Customers won per month",
+        "lever_key": "customers_per_month",
+        "seeded_value": 1.7,
+        "section": "The numbers",
+        "source_field": "",
+        "quote": "Target: 12 paying practices by 2027-05-31 (that is $1,788 a month).",
+        "confidence": "Estimate",
+        "confirmed_by_founder": "no",
+        "confirmed_value": "",
+        "notes": "12 practices over about 7 months is about 1.7 a month"
+      },
+      {
+        "lever": "Acquisition cost per customer",
+        "lever_key": "acquisition_cost",
+        "seeded_value": 300,
+        "section": "The numbers",
+        "source_field": "",
+        "quote": "my guess is $300",
+        "confidence": "Guess",
+        "confirmed_by_founder": "no",
+        "confirmed_value": "",
+        "notes": "the founder's own guess; the first round replaces it"
+      },
+      {
+        "lever": "Gross margin",
+        "lever_key": "gross_margin",
+        "seeded_value": 0.8523,
+        "section": "The numbers",
+        "source_field": "",
+        "quote": "Cost to deliver: $22 per practice per month ($14 texts, $5 card fees, $3 support tools). My own time is about 1.5 hours per practice per month and is not charged.",
+        "confidence": "Estimate",
+        "confirmed_by_founder": "no",
+        "confirmed_value": "",
+        "notes": "(149 - 22) / 149"
+      },
+      {
+        "lever": "Fixed monthly costs",
+        "lever_key": "fixed_costs",
+        "seeded_value": 240,
+        "section": "The numbers",
+        "source_field": "",
+        "quote": "Fixed costs: $240 a month (texting base $49, website and tools $99, booking $22, insurance and accounts $70).",
+        "confidence": "Known",
+        "confirmed_by_founder": "no",
+        "confirmed_value": "",
+        "notes": "stated in the case"
+      },
+      {
+        "lever": "Founder hours value",
+        "lever_key": "founder_hours_value",
+        "seeded_value": 0,
+        "section": "",
+        "source_field": "",
+        "quote": "",
+        "confidence": "Guess",
+        "confirmed_by_founder": "no",
+        "confirmed_value": "",
+        "notes": "The case says living costs are ASK; held at 0 and never turned into cash"
+      },
+      {
+        "lever": "Founder hours per month",
+        "lever_key": "founder_hours_per_month",
+        "seeded_value": 87,
+        "section": "The numbers",
+        "source_field": "",
+        "quote": "Time: 20 hours a week",
+        "confidence": "Estimate",
+        "confirmed_by_founder": "no",
+        "confirmed_value": "",
+        "notes": "20 hours a week x 52 / 12"
+      },
+      {
+        "lever": "Monthly churn",
+        "lever_key": "churn",
+        "seeded_value": 0.05,
+        "section": "",
+        "source_field": "",
+        "quote": "",
+        "confidence": "Guess",
+        "confirmed_by_founder": "no",
+        "confirmed_value": "",
+        "notes": "Nothing in the case; a placeholder until a round gives data"
+      },
+      {
+        "lever": "Opening cash",
+        "lever_key": "opening_cash",
+        "seeded_value": 9000,
+        "section": "The numbers",
+        "source_field": "",
+        "quote": "Cash I can put in: $9,000",
+        "confidence": "Known",
+        "confirmed_by_founder": "no",
+        "confirmed_value": "",
+        "notes": "stated in the case"
+      }
+    ],
+    "tie_out": {
+      "ok": true,
+      "differences": [],
+      "projection": {
+        "active_customers": 20.49,
+        "revenue": 3053.71,
+        "net_cash_flow": 1852.68,
+        "customer_months": 222.6,
+        "cumulative_net_cash": 14768.63,
+        "cash": 23768.63
+      },
+      "closed_form": {
+        "active_customers": 20.49,
+        "revenue": 3053.71,
+        "net_cash_flow": 1852.68,
+        "customer_months": 222.6,
+        "cumulative_net_cash": 14768.63,
+        "cash": 23768.63
+      },
+      "break_even": "Month 4"
+    },
+    "seeded_on": "2026-11-10",
+    "all_confirmed": false
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "product": "Gapwise",
+  "founder": "Dara Whitfield (fictional)",
+  "note": "A simulated example run of the four WEP skills. Gapwise and every person in it are invented.",
+  "drive_folder": {
+    "id": "1Q8QTpHl_4bhL6A8W3cnF4RdyqR0IhO3u",
+    "url": "https://drive.google.com/drive/folders/1Q8QTpHl_4bhL6A8W3cnF4RdyqR0IhO3u"
+  },
+  "experiment_database": {
+    "id": "1c59vOvgzMrZy7Kz6c6H5eVP5tHXDlPfpGjt5WFnaN7I",
+    "url": "https://docs.google.com/spreadsheets/d/1c59vOvgzMrZy7Kz6c6H5eVP5tHXDlPfpGjt5WFnaN7I/edit"
+  },
+  "financial_model": {
+    "id": "1CbvcC6mmtjLrkkUetKeXuyg7ZhPyedW__Y5C_0ugnVo",
+    "url": "https://docs.google.com/spreadsheets/d/1CbvcC6mmtjLrkkUetKeXuyg7ZhPyedW__Y5C_0ugnVo/edit"
+  },
+  "docs": {
+    "ikigai": {
+      "id": "1VNUu5bGBuqq8PYEGOMjmJvVquMDmvPmEnW1_ekPYlJo",
+      "url": "https://docs.google.com/document/d/1VNUu5bGBuqq8PYEGOMjmJvVquMDmvPmEnW1_ekPYlJo/edit"
+    },
+    "business_case": {
+      "id": "1_8bOdLb--HPqsb11PE1JzIImjPy1mmkwQtMuU3rFAwQ",
+      "url": "https://docs.google.com/document/d/1_8bOdLb--HPqsb11PE1JzIImjPy1mmkwQtMuU3rFAwQ/edit"
+    },
+    "mission_values": {
+      "id": "1ulSRQNT16hGU38zpDdT7XZ2Q9cTUQlTEUAEuipB220M",
+      "url": "https://docs.google.com/document/d/1ulSRQNT16hGU38zpDdT7XZ2Q9cTUQlTEUAEuipB220M/edit"
+    },
+    "interview_questions": {
+      "id": "1MP1OVRNDE6dOxIbVcDK3aIgFGpI3TS0_z2vH4uj5Jp0",
+      "url": "https://docs.google.com/document/d/1MP1OVRNDE6dOxIbVcDK3aIgFGpI3TS0_z2vH4uj5Jp0/edit"
+    },
+    "transcripts_folder": {
+      "id": "1vjj_K7ngwuhiBm2BGuD7lBMrmsl5WdMR",
+      "url": "https://drive.google.com/drive/folders/1vjj_K7ngwuhiBm2BGuD7lBMrmsl5WdMR"
+    },
+    "transcripts": [
+      {
+        "title": "Waya Consultation w/ Priya Raman 111226",
+        "id": "1HjiWpdhKfs1pst6yhwXmrUgkxuYyfYS581TRqkYl2hs",
+        "url": "https://docs.google.com/document/d/1HjiWpdhKfs1pst6yhwXmrUgkxuYyfYS581TRqkYl2hs/edit"
+      },
+      {
+        "title": "Waya Consultation w/ Tom Brandt 111326",
+        "id": "18PG_LhHu77BXUqJERZ0lGyR0BeqVTceRNNli049ciZE",
+        "url": "https://docs.google.com/document/d/18PG_LhHu77BXUqJERZ0lGyR0BeqVTceRNNli049ciZE/edit"
+      },
+      {
+        "title": "Waya Consultation w/ Lucia Moreno 111726",
+        "id": "1kg0JKfxnxWQKxJcZVWvIaAowVd-xPt5B6MtWH2sAx9g",
+        "url": "https://docs.google.com/document/d/1kg0JKfxnxWQKxJcZVWvIaAowVd-xPt5B6MtWH2sAx9g/edit"
+      },
+      {
+        "title": "Founder follow up 112426",
+        "id": "1K6Yln_9WkIDONlGqMlMDc35HSh0MstnX70dsd8yZ5Z8",
+        "url": "https://docs.google.com/document/d/1K6Yln_9WkIDONlGqMlMDc35HSh0MstnX70dsd8yZ5Z8/edit"
+      }
+    ]
+  },
+  "github": {
+    "repo_url": "https://github.com/wayaframes/gapwise-demo",
+    "project_url": "https://github.com/orgs/wayaframes/projects/8",
+    "status": "created 2026-11-02: public repo, Pages from main, board copied from the Experiment Platform board"
+  },
+  "landing_page": {
+    "local_path": "demo/gapwise/site/index.html",
+    "published_url": "https://wayaframes.github.io/gapwise-demo/",
+    "utm_plan_path": "demo/gapwise/site/UTM-PLAN.md",
+    "tested": true
+  },
+  "survey": {
+    "status": "not needed in Round 1: neither experiment tests anything with a survey"
+  },
+  "calendar": {
+    "name": "Google Calendar (oren@wayaframes.com)",
+    "note": "Events have no guests and sent no notifications; titles start with [Gapwise demo].",
+    "events": [
+      {
+        "event_id": "4vnsfnshhoaep361vecpb8orq0",
+        "guest": "Priya Raman",
+        "date": "2026-11-12",
+        "url": "https://www.google.com/calendar/event?eid=NHZuc2Zuc2hob2FlcDM2MXZlY3BiOG9ycTAgb3JlbkB3YXlhZnJhbWVzLmNvbQ"
+      },
+      {
+        "event_id": "hgsg8tl1qqkkisp4t69min1n4c",
+        "guest": "Tom Brandt",
+        "date": "2026-11-13",
+        "url": "https://www.google.com/calendar/event?eid=aGdzZzh0bDFxcWtraXNwNHQ2OW1pbjFuNGMgb3JlbkB3YXlhZnJhbWVzLmNvbQ"
+      },
+      {
+        "event_id": "52u35sjk2bn7sh5h39eeksu9ho",
+        "guest": "Lucia Moreno",
+        "date": "2026-11-17",
+        "url": "https://www.google.com/calendar/event?eid=NTJ1MzVzamsyYm43c2g1aDM5ZWVrc3U5aG8gb3JlbkB3YXlhZnJhbWVzLmNvbQ"
+      },
+      {
+        "event_id": "63an6hj38s31qmfb8k8dopk0b4",
+        "guest": "Priya Raman",
+        "date": "2026-11-24",
+        "url": "https://www.google.com/calendar/event?eid=NjNhbjZoajM4czMxcW1mYjhrOGRvcGswYjQgb3JlbkB3YXlhZnJhbWVzLmNvbQ"
+      }
+    ],
+    "tested": true,
+    "read": "yes",
+    "write": "yes"
+  },
+  "connections": [
+    {
+      "tool": "Sheets",
+      "read": "yes",
+      "write": "yes",
+      "tested": true,
+      "note": "Read and wrote the Gapwise Experiment database through the Sheets connector on 2026-11-02."
+    },
+    {
+      "tool": "Calendar",
+      "read": "yes",
+      "write": "yes",
+      "tested": true,
+      "note": "Created four events and read one back on 2026-11-02."
+    },
+    {
+      "tool": "Gmail",
+      "read": "untested",
+      "write": "untested",
+      "tested": false,
+      "note": "Not used in this run."
+    },
+    {
+      "tool": "GitHub",
+      "read": "yes",
+      "write": "yes",
+      "tested": true,
+      "note": "Created the public repo, pushed the page, turned on Pages and copied the board on 2026-11-02."
+    }
+  ]
+}

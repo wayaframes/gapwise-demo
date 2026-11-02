@@ -1,0 +1,445 @@
+[
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A2"
+    },
+    "row": {
+      "verdict": "accepted",
+      "verdict_date": "2026-11-30"
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A6"
+    },
+    "row": {
+      "verdict": "accepted",
+      "verdict_date": "2026-11-30"
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A3"
+    },
+    "row": {
+      "verdict": "accepted",
+      "verdict_date": "2026-11-30"
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A5"
+    },
+    "row": {
+      "verdict": "inconclusive",
+      "verdict_date": "2026-11-30"
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A4"
+    },
+    "row": {
+      "verdict": "inconclusive",
+      "verdict_date": "2026-11-30"
+    }
+  },
+  {
+    "tab": "Experiments",
+    "op": "update",
+    "key": {
+      "id": "E1-1"
+    },
+    "row": {
+      "status": "Done",
+      "result": "accepted"
+    }
+  },
+  {
+    "tab": "Experiments",
+    "op": "update",
+    "key": {
+      "id": "E1-2"
+    },
+    "row": {
+      "status": "Done",
+      "result": "inconclusive"
+    }
+  },
+  {
+    "tab": "Decisions",
+    "op": "append",
+    "key": {
+      "id": "Q2"
+    },
+    "row": {
+      "id": "Q2",
+      "date": "2026-11-30",
+      "round": 1,
+      "decision": "Founder decided: A2 accepted (Three practices paid $149 within 10 days; the line was two.); A6 accepted ($13.57 a call against a $60 line.); A3 accepted (Two of three practices send their own list. The third copies by hand, so this may not scale past a handful.); A5 inconclusive (4 of 15 is between the lines, all from one practice and from morning offers.); A4 inconclusive (Founder changed from accepted: all opt-outs from one practice whose consent form covered reminders only; test repeated once consent wording is fixed.). The founder changed the proposal for A4; their version is recorded.",
+      "made_by": "Founder",
+      "assumption_ids": "A2,A6,A3,A5,A4",
+      "source": "Analyze round 1 verdicts 2026-11-30"
+    }
+  },
+  {
+    "tab": "Decisions",
+    "op": "append",
+    "key": {
+      "id": "Q3"
+    },
+    "row": {
+      "id": "Q3",
+      "date": "2026-11-30",
+      "round": 1,
+      "decision": "Keep selling. Aim for 6 paying practices by 2027-01-31.",
+      "made_by": "Founder",
+      "assumption_ids": "A2,A6",
+      "source": "Analyze round 1 founder decision"
+    }
+  },
+  {
+    "tab": "Decisions",
+    "op": "append",
+    "key": {
+      "id": "Q4"
+    },
+    "row": {
+      "id": "Q4",
+      "date": "2026-11-30",
+      "round": 1,
+      "decision": "Fix the consent wording with each pilot practice before sending more offers, then repeat the test with 30 cancelled slots.",
+      "made_by": "Founder",
+      "assumption_ids": "A4,A5",
+      "source": "Analyze round 1 founder decision"
+    }
+  },
+  {
+    "tab": "Decisions",
+    "op": "append",
+    "key": {
+      "id": "Q5"
+    },
+    "row": {
+      "id": "Q5",
+      "date": "2026-11-30",
+      "round": 1,
+      "decision": "Do not build a software link yet; take cancellation lists by file or copy until 5 practices are paying.",
+      "made_by": "Founder",
+      "assumption_ids": "A3",
+      "source": "Analyze round 1 founder decision"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-30T11:00:00Z"
+    }
+  },
+  {
+    "tab": "Learnings",
+    "op": "append",
+    "key": {
+      "id": "K1"
+    },
+    "row": {
+      "id": "K1",
+      "date": "2026-11-30",
+      "learning": "Office managers answer. 14 calls booked from 240 messages for about $190, and 3 practices paid within 10 days.",
+      "assumption_ids": "A2,A6",
+      "round": 1,
+      "experiment_id": "E1-1",
+      "decision": "Keep selling. Aim for 6 paying practices by 2027-01-31 (A2, A6).",
+      "shared_with_coach": "yes"
+    }
+  },
+  {
+    "tab": "Learnings",
+    "op": "append",
+    "key": {
+      "id": "K2"
+    },
+    "row": {
+      "id": "K2",
+      "date": "2026-11-30",
+      "learning": "Two of three practices can send a cancellation list themselves; the third copies it by hand. Fine for the first few practices, not for 12.",
+      "assumption_ids": "A3",
+      "round": 1,
+      "experiment_id": "E1-2",
+      "decision": "Do not build a software link to the practices yet. Keep taking cancellation lists by file or copy until 5 practices are paying (A3).",
+      "shared_with_coach": "no"
+    }
+  },
+  {
+    "tab": "Learnings",
+    "op": "append",
+    "key": {
+      "id": "K3"
+    },
+    "row": {
+      "id": "K3",
+      "date": "2026-11-30",
+      "learning": "All 4 opt-outs came from one practice whose consent form covered reminders only. The opt-out count tells us little until every practice has consent wording that covers offer texts.",
+      "assumption_ids": "A4",
+      "round": 1,
+      "experiment_id": "E1-2",
+      "decision": "Fix the consent wording with each pilot practice before sending any more offers, then repeat the test with 30 cancelled slots (A4, A5).",
+      "shared_with_coach": "no"
+    }
+  },
+  {
+    "tab": "Learnings",
+    "op": "append",
+    "key": {
+      "id": "K4"
+    },
+    "row": {
+      "id": "K4",
+      "date": "2026-11-30",
+      "learning": "4 of 15 slots were filled within 2 hours. All came from offers sent before 10 am at one practice, so timing may matter more than the size of the waiting list.",
+      "assumption_ids": "A5",
+      "round": 1,
+      "experiment_id": "E1-2",
+      "decision": "Offer earlier in the morning in the repeat test (A5).",
+      "shared_with_coach": "yes"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-30T11:00:00Z"
+    }
+  },
+  {
+    "tab": "Analysis",
+    "op": "update",
+    "key": {
+      "block": "Round 1",
+      "signal": "Problem"
+    },
+    "row": {
+      "signal": "Problem",
+      "what_counts": "Calls where the practice lost at least 3 slots in a week",
+      "pass_bar": 8,
+      "measured": 9
+    }
+  },
+  {
+    "tab": "Analysis",
+    "op": "update",
+    "key": {
+      "block": "Round 1",
+      "signal": "Demand"
+    },
+    "row": {
+      "signal": "Demand",
+      "what_counts": "Landing page sign-ups",
+      "pass_bar": 25,
+      "measured": 29
+    }
+  },
+  {
+    "tab": "Analysis",
+    "op": "update",
+    "key": {
+      "block": "Round 1",
+      "signal": "Commitment"
+    },
+    "row": {
+      "signal": "Commitment",
+      "what_counts": "Practices that paid the first month",
+      "pass_bar": 2,
+      "measured": 3
+    }
+  },
+  {
+    "tab": "Analysis",
+    "op": "update",
+    "key": {
+      "block": "Round 1",
+      "signal": "Product love"
+    },
+    "row": {
+      "signal": "Product love",
+      "what_counts": "Cancelled slots filled within 2 hours (of 15)",
+      "pass_bar": 5,
+      "measured": 4
+    }
+  },
+  {
+    "tab": "Analysis",
+    "op": "update",
+    "key": {
+      "block": "Round 1",
+      "signal": "Retention"
+    },
+    "row": {
+      "signal": "Retention",
+      "what_counts": "Practices still paying in month 3",
+      "pass_bar": 3,
+      "measured": ""
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-30T11:00:00Z"
+    }
+  },
+  {
+    "tab": "FinancialUpdates",
+    "op": "append",
+    "key": {
+      "round": 1,
+      "lever": "Acquisition cost per customer"
+    },
+    "row": {
+      "round": 1,
+      "lever": "Acquisition cost per customer",
+      "before": "$300 (guess: $60 per call, about 5 calls per practice)",
+      "after": "$63 ($190 spent, 3 practices paid)",
+      "from": "A6, A2"
+    }
+  },
+  {
+    "tab": "Decisions",
+    "op": "append",
+    "key": {
+      "id": "Q6"
+    },
+    "row": {
+      "id": "Q6",
+      "date": "2026-11-30",
+      "round": 1,
+      "decision": "Founder agreed to change the Financial Model: Acquisition cost per customer from \"$300 (guess: $60 per call, about 5 calls per practice)\" to \"$63 ($190 spent, 3 practices paid)\" (from A6, A2).",
+      "made_by": "Founder",
+      "assumption_ids": "A6,A2",
+      "source": "Analyze round 1 financial model"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-30T11:00:00Z"
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A5"
+    },
+    "row": {
+      "timing": "now",
+      "round": 2
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A4"
+    },
+    "row": {
+      "timing": "now",
+      "round": 2
+    }
+  },
+  {
+    "tab": "Assumptions",
+    "op": "update",
+    "key": {
+      "id": "A8"
+    },
+    "row": {
+      "timing": "now",
+      "round": 2
+    }
+  },
+  {
+    "tab": "Sessions",
+    "op": "append",
+    "key": {
+      "session_ref": "Analyze round 1 next-round set-up 2026-11-30"
+    },
+    "row": {
+      "session_ref": "Analyze round 1 next-round set-up 2026-11-30",
+      "method": "Analyze",
+      "status": "Closed",
+      "current_step": "Round 2 start",
+      "started": "2026-11-30T11:00:00Z",
+      "last_activity": "2026-11-30T11:00:00Z",
+      "summary": "Round 2 opened with A5, A4, A8. Next step: define the round with WEP-Define-v1.",
+      "rows_written": "A5,A4,A8"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-30T11:00:00Z"
+    }
+  },
+  {
+    "tab": "Sessions",
+    "op": "append",
+    "key": {
+      "session_ref": "Analyze round 1 2026-11-30"
+    },
+    "row": {
+      "session_ref": "Analyze round 1 2026-11-30",
+      "method": "Analyze",
+      "status": "Closed",
+      "current_step": "Analyze: close-out",
+      "started": "2026-11-30T11:00:00Z",
+      "last_activity": "2026-11-30T11:00:00Z",
+      "summary": "Analyze round 1 2026-11-30: verdicts agreed with the founder and written.",
+      "rows_written": "Q2,Q3,Q4,Q5,Q6,K1,K2,K3,K4"
+    }
+  },
+  {
+    "tab": "Setup",
+    "op": "update",
+    "key": {
+      "key": "last_write_any"
+    },
+    "row": {
+      "key": "last_write_any",
+      "value": "2026-11-30T11:00:00Z"
+    }
+  }
+]
