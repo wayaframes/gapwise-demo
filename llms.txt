@@ -1,0 +1,33 @@
+# Gapwise
+
+> When a patient cancels, you send the slot to Gapwise and waiting patients are texted until one takes it. $149 per practice per month, no contract.
+
+Who it is for: Independent dental practices
+
+Price: $149 per month. Month to month, no contract, no setup fee.
+
+## Pages
+
+- [Gapwise: fill cancelled dental slots](https://wayaframes.github.io/gapwise-demo/): When a patient cancels, you send the slot to Gapwise and waiting patients are texted until one takes it. $149 per practice per month, no contract.
+
+## Common questions
+
+**Q: Which patients do you text?**
+
+A: Only people who agreed to hear from your practice. If we are not sure a patient agreed, we do not text them.
+
+**Q: What if a patient does not want the texts?**
+
+A: A patient can reply STOP and the texts stop.
+
+**Q: What do you do with patient details?**
+
+A: We never sell or share them, and we keep only what we need to send one text.
+
+**Q: Is written consent needed in every state?**
+
+A: We do not know yet. It needs a lawyer or a practice that knows the rules. We will not guess, and we will not text a patient unless we are sure they agreed.
+
+**Q: Can I stop?**
+
+A: Yes, whenever you want. It is month to month with no contract.

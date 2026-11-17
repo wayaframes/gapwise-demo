@@ -5,7 +5,7 @@
 
 ## Replacing the placeholders (Build register step)
 
-1. In `attribution.js`, set `BOOKING_URL` and `PAYMENT_URL` in the config block at the top.
+1. In `attribution.js`, set `booking.url` and `payment.url` in `kit.config.json`, then run `node scripts/website-kit.mjs init --config demo/gapwise/site/kit.config.json --out demo/gapwise/site`.
 2. In `../index.html`, the buttons carry the same placeholder address as a fallback for visitors without JavaScript. Replace the address part (before `?utm_button=`) in each button. Keep `?utm_button=...` exactly as written.
 3. Run `node --test demo/gapwise/site/attribution.test.mjs`.
 
@@ -25,4 +25,4 @@ Each button has `data-cta="book"` (booking link) or `data-cta="pay"` (payment li
 ## Direct visits
 
 To tag visits that arrive with no tracking tags, add this before the script in `index.html`:
-`<script>window.GAPWISE_ATTR_DEFAULTS = { utm_source: 'direct', utm_medium: 'none', utm_campaign: 'gapwise_direct' };</script>`
+`<script>window.SITE_ATTR_DEFAULTS = { utm_source: 'direct', utm_medium: 'none', utm_campaign: 'gapwise_direct' };</script>`

@@ -1,0 +1,56 @@
+{
+  "name": "Gapwise",
+  "url": "https://wayaframes.github.io/gapwise-demo/",
+  "description": "When a patient cancels, you send the slot to Gapwise and waiting patients are texted until one takes it. $149 per practice per month, no contract.",
+  "audience": "Independent dental practices",
+  "offer": {
+    "price": 149,
+    "currency": "USD",
+    "period": "month",
+    "terms": "Month to month, no contract, no setup fee.",
+    "description": "Texts the waiting patients when a patient cancels, until one takes the slot."
+  },
+  "booking": {
+    "url": "https://wayaframes.github.io/gapwise-demo/simulated.html"
+  },
+  "payment": {
+    "url": "https://wayaframes.github.io/gapwise-demo/simulated.html"
+  },
+  "posthog": {
+    "key": "phc_D6sEsVbEV2QjBJkjEvkFRqXMJAHYkWuzjSUbLAZXqVdu",
+    "host": "https://us.i.posthog.com"
+  },
+  "ai_crawlers": "allow",
+  "pages": [
+    {
+      "path": "/",
+      "title": "Gapwise: fill cancelled dental slots",
+      "description": "When a patient cancels, you send the slot to Gapwise and waiting patients are texted until one takes it. $149 per practice per month, no contract."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which patients do you text?",
+      "a": "Only people who agreed to hear from your practice. If we are not sure a patient agreed, we do not text them."
+    },
+    {
+      "q": "What if a patient does not want the texts?",
+      "a": "A patient can reply STOP and the texts stop."
+    },
+    {
+      "q": "What do you do with patient details?",
+      "a": "We never sell or share them, and we keep only what we need to send one text."
+    },
+    {
+      "q": "Is written consent needed in every state?",
+      "a": "We do not know yet. It needs a lawyer or a practice that knows the rules. We will not guess, and we will not text a patient unless we are sure they agreed."
+    },
+    {
+      "q": "Can I stop?",
+      "a": "Yes, whenever you want. It is month to month with no contract."
+    }
+  ],
+  "logo": "assets/logo.svg",
+  "image": "assets/share.png",
+  "favicon": "assets/favicon.png"
+}

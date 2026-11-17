@@ -1,5 +1,5 @@
 /*
- * Gapwise landing page: link attribution engine.
+ * Landing page: link attribution engine (the website kit).
  *
  * What it does, in plain words:
  *  - Reads the tracking tags (utm_source, utm_medium, utm_campaign, utm_content, utm_term)
@@ -11,10 +11,10 @@
  */
 
 /* ------------------------------------------------------------------
- * CONFIG. PLACEHOLDERS. The Build skill's register step replaces both
- * values with the real booking and payment links.
+ * CONFIG. Filled in by website-kit init from kit.config.json (booking.url and
+ * payment.url). Do not edit by hand.
  * ------------------------------------------------------------------ */
-var GAPWISE_CONFIG = {
+var SITE_CONFIG = {
   BOOKING_URL: 'https://wayaframes.github.io/gapwise-demo/simulated.html',
   PAYMENT_URL: 'https://wayaframes.github.io/gapwise-demo/simulated.html'
 };
@@ -25,7 +25,7 @@ var GAPWISE_CONFIG = {
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = api;
   } else {
-    root.GapwiseAttribution = api;
+    root.SiteAttribution = api;
   }
   if (typeof document !== 'undefined') {
     if (document.readyState === 'loading') {
@@ -37,7 +37,7 @@ var GAPWISE_CONFIG = {
 })(typeof window !== 'undefined' ? window : globalThis, function (root) {
   'use strict';
 
-  var STORAGE_KEY = 'gapwise_first_touch';
+  var STORAGE_KEY = 'site_first_touch';
   // Order in which tags appear on a link. utm_button is last.
   var TOUCH_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'];
   var ALL_KEYS = TOUCH_KEYS.concat(['utm_button']);
@@ -211,9 +211,9 @@ var GAPWISE_CONFIG = {
   }
 
   function init() {
-    var cfg = (typeof GAPWISE_CONFIG !== 'undefined') ? GAPWISE_CONFIG : {};
+    var cfg = (typeof SITE_CONFIG !== 'undefined') ? SITE_CONFIG : {};
     var search = (root.location && root.location.search) || '';
-    var result = resolveTouch(search, getStorage(), root.GAPWISE_ATTR_DEFAULTS);
+    var result = resolveTouch(search, getStorage(), root.SITE_ATTR_DEFAULTS);
     decorateLinks(root.document, result.touch, cfg);
     return result;
   }
