@@ -35,8 +35,10 @@
       var props = firstTouch();
       props.button = a.getAttribute('data-utm-button') || buttonOf(href) || a.id || '';
       props.path = location.pathname;
-      if (kind === 'book') ph.capture('booking_clicked', props);
-      else if (kind === 'pay') ph.capture('payment_clicked', props);
+      // The visitor leaves the page right after these clicks, so send them at once instead of in the next batch.
+      var now = { send_instantly: true };
+      if (kind === 'book') ph.capture('booking_clicked', props, now);
+      else if (kind === 'pay') ph.capture('payment_clicked', props, now);
       else if (/^https?:/i.test(href) && href.indexOf(location.host) === -1) { props.href = href.split('?')[0]; ph.capture('outbound_click', props); }
     }, true);
 
